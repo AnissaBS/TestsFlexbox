@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(to right, pink,purple);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    border-radius: 10px;
+    height: 20px;
+}
+
+
+ .formulaire{
+    background-image: linear-gradient(to left, rgba(255, 192, 203, 0.503),rgba(128, 0, 128, 0.406));
+    text-align: center;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 20px;
+} 
+
+fieldset{
+    border: 3px solid rgb(255, 236, 201);
+    border-radius: 25px;
+    width: 40vw;
+    height: 35vh;
+}
+
+legend{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-shadow: 1px 1px 7px rgb(133, 21, 120);
+}

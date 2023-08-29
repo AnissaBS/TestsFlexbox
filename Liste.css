@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+li{
+    color: white;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+}
+
+.un{
+    background-color: rgb(176, 230, 230);
+}
+
+.deux{
+    background-color: rgb(129, 180, 180);
+}
+
+.trois{
+    background-color: rgb(100, 137, 137);
+}
+
+.quatre{
+ background-color: rgb(78, 112, 112);
+}
+
+.cinq{
+    background-color: rgb(56, 81, 81);
+}
+
+.six{
+    background-color: rgb(39, 58, 58);
+}

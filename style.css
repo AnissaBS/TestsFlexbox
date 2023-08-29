@@ -1,0 +1,46 @@
+#parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.enfant{
+    border: 1px solid rgb(136, 135, 135);
+    width: 80px;
+    height: 100px;
+}
+
+#rouge{
+    background-color: rgb(218, 143, 143);
+}
+
+
+#vert{
+    background-color: rgb(135, 187, 135);
+}
+
+
+#jaune{
+    background-color: rgb(234, 234, 150)
+}
+
+
+#rose{
+    background-color: rgb(218, 124, 196)
+}
+
+
+#bleu{
+    background-color: rgb(127, 127, 198)
+}
+
+
+#violet{
+    background-color: rgb(164, 97, 164)
+}
